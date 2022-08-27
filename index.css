@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.insta__main {
+    display: flex;
+    margin: 3% 23%;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.left__img_div {
+    display: flex;
+    position: relative;
+    margin-right: 150px;
+}
+
+.left__img2 {
+    position: absolute;
+    left: 122px;
+    /* border: 10px solid black; */
+    top: 25px;
+}
+
+.left__img1 {
+    border-radius: 13px;
+}
+
+.main__right {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.right__top {
+    padding: 10px 35px 10px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.insta__logo {
+    margin: 20px 54px;
+    cursor: pointer;
+}
+
+.container__input,
+.container__button {
+    width: 100%;
+    margin-top: 6px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgb(249, 249, 249);
+}
+
+.container__input:focus {
+    /* outline-color: rgba(187, 176, 176, 0.878); */
+    outline: 0.5px solid rgba(187, 176, 176, 0.878);
+}
+
+.container__button {
+    margin-top: 15px;
+    background-color: #0095f6;
+    color: white;
+    padding: 8px 10px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.or {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 30px 0 10px;
+}
+.or  span{
+    padding: 0px 15px;
+    background-color: #fff;
+    font-weight: bold;
+    color: rgb(94, 94, 94);  
+}
+.facebook__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.facebook__login > span > img{
+    width: 15px;
+    cursor: pointer;
+}
+.facebook__login > a{
+    text-decoration: none;
+}
+.facebook__login > a > p{
+    margin-left: 10px;
+    font-weight: bold;
+    color: #385185;
+    cursor: pointer;
+}
+.forgot{
+    text-align: center;
+    margin: 20px 0px 10px;
+    color: rgb(90, 81, 81);
+    font-size: 13px;
+    cursor: pointer;
+}
+.right__middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 25px 0px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+}
+.right__middle > p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.right__middle > span > p{
+    color: #0095f6;;
+    margin-left: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.right__bottom {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.playstore__img{
+    display: flex;
+    margin: 20px 0px;
+}
+.playstore__img > img {
+    width: 130px;
+    cursor: pointer;
+}
+.playstore__img2{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.insta__footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer__links > ul > li{
+    margin-left: 15px;
+}
+.footer__links > ul > li > a{
+    cursor: pointer;
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight: 300;
+}
+.copyright__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8E8E8E;
+    margin: 10px 0px 60px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.copyright__links > span > p{
+    cursor: pointer;
+}
+.copyright__links > p{
+    margin-left: 20px;
+}
